@@ -1,0 +1,59 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab,rgb(251, 255, 0),rgb(236, 23, 23),rgb(2, 255, 2),rgb(219, 23, 56),rgb(248, 4, 248));
+	background-size: 500%,500%;
+	animation: gradient 15s ease infinite alternate-reverse;
+	text-align: center;
+	min-height: 100vh;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: left top
+	}
+	100% {
+		background-position: right bottom
+	}
+}
+
+img {	
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-box-shadow: 0px 0px 40px 10px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 40px 10px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 40px 10px rgba(0,0,0,0.75);
+	border-radius: 10px;
+	opacity: 0.7;
+	transition: 0.4s;
+	margin-top: 20px;
+}
+
+img:hover {
+	opacity: 1;
+}
+
+h1, h2, p {
+	text-align: center;
+	color: rgb(10, 10, 10);
+}
+
+p {
+	font-size: 20px;
+}
+
+iframe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	-webkit-box-shadow: 0px 0px 40px 10px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 40px 10px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 40px 10px rgba(0,0,0,0.75);
+	border-radius: 10px;
+}
